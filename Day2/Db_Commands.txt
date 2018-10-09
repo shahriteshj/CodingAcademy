@@ -1,0 +1,5 @@
+sys as sysdba / oracle
+
+alter user hr identified by hr;
+
+alter user hr identified by hr account unlock;
