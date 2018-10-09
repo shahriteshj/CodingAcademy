@@ -3,3 +3,11 @@ sys as sysdba / oracle
 alter user hr identified by hr;
 
 alter user hr identified by hr account unlock;
+
+
+
+EmpId, PAN No, AADHAR NO, firstname, lastname
+Candidate keys: Keys that could become primary keys
+	If you choose"EmpId" as primary key, rest of the candidate keys become "Alternate Keys"
+
+
