@@ -11,3 +11,4 @@ Candidate keys: Keys that could become primary keys
 	If you choose"EmpId" as primary key, rest of the candidate keys become "Alternate Keys"
 
 
+DQL, DDL, DML, DCL, TCL
