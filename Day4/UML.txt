@@ -28,5 +28,6 @@ Diagrams
 
 
 
-include - has a - arrow is child 
-exclude - is a - arrow is parent
+use case----
+include - has a - arrow is child - 
+exclude - is a - arrow is parent - inheritance
