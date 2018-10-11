@@ -1,0 +1,32 @@
+UML
+
+UML - its is a visual modelling language and not visual programming language. it is a language for visualizing, specifying, constructing and documenting the artifacts of a s/w intensive system.
+
+
+Things
+	Structural
+	Behavioral
+	Grouping
+	Annotational
+
+Relationships
+	Dependency
+	Association
+	Generalisation
+	Realization
+
+Diagrams
+	Class
+	Object
+	Use Case
+	Sequence
+	Collaboration
+	Statechart
+	Activity
+	Component
+	Deployment
+
+
+
+include - has a - arrow is child 
+exclude - is a - arrow is parent
