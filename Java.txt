@@ -1,0 +1,24 @@
+Portable - execute on anu m/c having jre insatlled
+
+if jdk is 1.8 then jre should be >= 1.8
+
+Java application is portable but JRE is OS and system specific
+
+JRE contains JVM, runtime libraries and tools
+
+Every java code is compiled and interpreted
+
+REPL - Read, evauate, print and Loop
+
+Portable, secured, robust and OO
+
+
+
+java is strongly typed language. - Once a variable of specific type declared, not other value type will b allowed to store
+
+
+byte (1), short (2), int (4), long (8), float (4), double (8)
+char
+boolean
+
+same name methods with different parameters is overloading 
