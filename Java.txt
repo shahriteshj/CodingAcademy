@@ -22,3 +22,19 @@ char
 boolean
 
 same name methods with different parameters is overloading 
+
+OOP principles
+Single reponsibility Principle (SRP) -  
+Open Closed Responsibility (OCP) - it should be able to add new requirements to classes without modifying existing functionality
+Liskov Substitution Responsibility (LSR) - Derived classes must be substitutable for their base classes
+Dependency Inversion Principle (DIP) - Depend on abstraction and not on concretions
+Interface Segregation Principle (ISP) - Prepare fine grained interfaces that are client specific
+
+
+Polymorphism
+
+
+private - same class
+default - same class, same package subclass, same package non-subclass
+protected - same class, same package subclass, same package non-subclass, different package subclass
+Public - same class, same package subclass, same package non-subclass, different package subclass, diffeent package non subclass
