@@ -38,5 +38,18 @@ protected - same class, same package subclass, same package non-subclass, differ
 Public - same class, same package subclass, same package non-subclass, different package subclass, diffeent package non subclass
 
 
+static keyword can be used with variable, method, block and nested class
 
-Polymorphism
+
+Iterators are used only for arrays and collections
+
+AutoBoxing - Integer n = 100;
+AutoUnBoxing int k = n; //Provided object n is Integer object and already present
+
+Polymorphism -- to be explained
+
+base = derived // Implicit
+
+
+derieved = (derieved) base //Explicit. If derieved is incorrect then runtime error
+
