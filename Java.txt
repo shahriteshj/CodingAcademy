@@ -31,10 +31,12 @@ Dependency Inversion Principle (DIP) - Depend on abstraction and not on concreti
 Interface Segregation Principle (ISP) - Prepare fine grained interfaces that are client specific
 
 
-Polymorphism
-
 
 private - same class
 default - same class, same package subclass, same package non-subclass
 protected - same class, same package subclass, same package non-subclass, different package subclass
 Public - same class, same package subclass, same package non-subclass, different package subclass, diffeent package non subclass
+
+
+
+Polymorphism
