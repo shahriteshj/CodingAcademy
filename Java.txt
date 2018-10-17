@@ -53,3 +53,10 @@ base = derived // Implicit
 
 derieved = (derieved) base //Explicit. If derieved is incorrect then runtime error
 
+
+Inheritance:
+
+Protected vairable can be accessed only 1 level below
+
+<VAR> instance of <Class>
+where VAR must be object of "Class" or any of its base class
