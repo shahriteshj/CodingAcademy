@@ -60,3 +60,39 @@ Protected vairable can be accessed only 1 level below
 
 <VAR> instance of <Class>
 where VAR must be object of "Class" or any of its base class
+
+Exceptions
+Recoverable and Non Recoverable
+
+catch can allow any object that inherits from Throwable
+
+Object -> Throwable 
+Exceptions (Recoverable)										
+	Checked Exceptions	(Unavoidable)	Compiler forces to have try catch
+	Unchecked Exceptions (Avoidable)	These inherit from RuntimeException							
+																	
+																	
+Error (Non Recoverable)																	
+	Virtual Machine Error
+	Assertion Error
+	OutOfMemoryError
+	
+
+A
+try{
+B
+C
+}catch(...)
+{
+D
+}
+E
+
+1. When No Exception: A->B->C->E
+2. When Exception occurs at B:  A->D->E
+3. Exception occurs at B which cannot be handled by Catch: A
+===========================================================================
+
+Arrays, Collections & Generics
+
+Array - hold many objects of same type

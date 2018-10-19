@@ -1,0 +1,44 @@
+sys as sysdba / oracle
+
+alter user hr identified by hr;
+
+alter user hr identified by hr account unlock;
+
+
+
+EmpId, PAN No, AADHAR NO, firstname, lastname
+Candidate keys: Keys that could become primary keys
+	If you choose"EmpId" as primary key, rest of the candidate keys become "Alternate Keys"
+
+
+DQL, DDL, DML, DCL, TCL
+
+
+set serveroutput on to use dbms_output.put_line('Hello World');
+
+
+SP syntax
+create or replace procedure procedure_name as
+begin
+    
+    dbms_output.put_line('Hello World');
+end procedure_name;
+
+use call or exec to execute the SP
+================================================================
+
+function syntax----------------------------------------
+create or replace function function_name (param type) 
+retrun return_name as
+	retrun_variable type
+begin
+	// queries
+	return return_name;
+end;
+/
+==================================================================
+
+create view syntax-------------------------------------
+create or replace view view_name as 
+ -- query;
+=================================================================
