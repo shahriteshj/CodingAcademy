@@ -96,3 +96,23 @@ E
 Arrays, Collections & Generics
 
 Array - hold many objects of same type
+
+varargs - multiple arguments of same type
+UseCase 1. avoid method overloading when parameters are of same type
+		vargs internally uses arrays
+		
+=========================================================================
+STATIC IMPORT
+
+ static import, we can access the static members of a class directly without class name or any object.
+ e.g. import static java.lang.Math.*; 
+ 
+===============================================================================
+
+Collection Interfaces
+Collection
+Iterator
+ListIterator
+Comparable
+Comparator
+compareTo return integer. 0 for equal, 1 for left is greater and -1 for right is greater
