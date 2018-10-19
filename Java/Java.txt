@@ -116,3 +116,8 @@ ListIterator
 Comparable
 Comparator
 compareTo return integer. 0 for equal, 1 for left is greater and -1 for right is greater
+
+Comparators
+1. For compaing "age" of students
+2. for comparing last names
+
