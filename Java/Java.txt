@@ -121,3 +121,27 @@ Comparators
 1. For compaing "age" of students
 2. for comparing last names
 
+
+
+==============================================================================
+Overview of I/O concepts in java
+
+Byte-stream 
+Character-stream
+Buffered stream
+
+
+System.in (InputStream) -> InputStreamReader (Reader) -> BufferedReader
+
+
+
+
+
+p.stringPropertyNames().forEach(PropertyDemo::accept);
+
+        p.stringPropertyNames().forEach(key -> {
+            System.out.println(key);
+            System.out.println(System.getProperty(key));
+        });
+
+
