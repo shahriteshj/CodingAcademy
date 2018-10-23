@@ -133,15 +133,19 @@ Buffered stream
 
 System.in (InputStream) -> InputStreamReader (Reader) -> BufferedReader
 
+==================================================================================
+
+Java DB connectivity
+
+Type 4 - Thin Driver (1st JDBC driver Purely written in Java) Driver interacts directly with database using DB specific calls. Does not require any native database library and hence known as thin driver
+Type 3 - Netweork Protocol Driver  - App connects directly to DB server using middleware server on Database server like(OCI Oracle Call Interface)
+Type 2 - Native API Partly Java Driver
+Type 1 - JDBC-ODBC bridge (Slowest)
+
+Selection of driver starts from 4 and moves to 1
+
+Type 1 is not supported Java 8 onwards
 
 
-
-
-p.stringPropertyNames().forEach(PropertyDemo::accept);
-
-        p.stringPropertyNames().forEach(key -> {
-            System.out.println(key);
-            System.out.println(System.getProperty(key));
-        });
 
 
