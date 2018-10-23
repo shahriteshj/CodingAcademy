@@ -147,5 +147,8 @@ Selection of driver starts from 4 and moves to 1
 Type 1 is not supported Java 8 onwards
 
 
+Oracle
+mySql
+postgres
 
 
