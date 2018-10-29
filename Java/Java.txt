@@ -163,3 +163,5 @@ Air traffic controller is a great example of mediator pattern where the airport 
 Observer -The Observer Pattern defines a one to many dependency between objects so that one object changes state, all of its dependents are notified and updated automatically.
 
 Strategy - 
+
+Template
