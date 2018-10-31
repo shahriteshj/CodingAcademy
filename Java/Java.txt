@@ -24,8 +24,8 @@ boolean
 same name methods with different parameters is overloading 
 
 OOP principles
-Single reponsibility Principle (SRP) -  
-Open Closed Responsibility (OCP) - it should be able to add new requirements to classes without modifying existing functionality
+Single reponsibility Principle (SRP) -  One class hould have one and only one responsibility
+Open Closed Responsibility (OCP) - S/w components should be open for extension, but closed for modification. it should be able to add new requirements to classes without modifying existing functionality
 Liskov Substitution Responsibility (LSR) - Derived classes must be substitutable for their base classes
 Dependency Inversion Principle (DIP) - Depend on abstraction and not on concretions
 Interface Segregation Principle (ISP) - Prepare fine grained interfaces that are client specific
@@ -152,8 +152,30 @@ mySql
 postgres
 
 
+Creational
+Factory Method
+Abstract Factory
+Builder
+Prototype
+Singleton
+
+
+Structural
+Adaptor
+Bridge
+Composite
+Decorator
+Facade
+Flyweight
+Proxy
+
+
 Behavioural
 
+Template
+Chain of Responsibility
+Visitor
+Memento
 Interpretor - eg regex 
 Itrator - provide a way to access all elements sequentially
 
