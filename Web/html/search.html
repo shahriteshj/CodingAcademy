@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form name="frm1" action="https://google.co.in/search" method="GET">
+        Search: <input type="text" name="q"/>
+        <input type="submit" value="search" />
+        <br/>
+        <select name="Planets" multiple="true">  
+            <option value="me">Mercury</option>
+            <option value="ve">Venus</option>
+            <option value="ea" selected>Earth</option>
+            <option value="ma">Mars</option>
+            <option value="sa">Saturn</option>
+        </select>
+        <br/><br/>
+
+        Your Name: <input name="uname"/><br/>
+        Gender: <input type="radio" name="gender" value="male" />Male
+        <input type="radio" name="gender" value="female" />Female<br/>
+
+        Your interests: <input type="checkbox" name="interests" value="a"/>Option1
+        <input type="checkbox" name="interests" checked disabled value="b"/>Option2
+        <input type="checkbox" name="interests" value="c"/>Option3
+    </form>
+</body>
+</html>
