@@ -1,36 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Account Opening Form</title>
 </head>
+
 <body>
     <h2>Account Opening Form</h2>
-    <form name="frm1" method="POST" >
-        Full Name: <input name="fname"/> <input name="mname"/> <input name="lname"/>
-        <br/><br/>
-        Gender: <input type="radio" name=gender value="M"/>Male
-                <input type="radio" name=gender value="F"/>Female
-        <br/><br/>
-        Aadhar Card: <input name="aadhaar" size="16" maxlength="16" minlength="16" required />
-        <br/><br/>
-        PAN No:  <input name="pan_no" size="10" maxlength="10" minlength="10" required/>
-        <br/><br/>
-        Type Of Account: <input type="radio" name="accType" value="S" required/>Savings 
-                         <input type="radio" name="accType" value="C" />Current
-        <br/><br/>
-        Occupation: <input type="radio" name="occupation" value="salaried"/>Salaried 
-                    <input type="radio" name="occupation" value="business"/>Business
-                    <input type="radio" name="occupation" value="professional"/>Professional
-        <br/><br/>
-        Services: <input type="checkbox" name="services" value="net_banking" />Net Banking
-                  <input type="checkbox" name="services" value="debit_card" />Debit Card
-                  <input type="checkbox" name="services" value="mobile_banking" />Mobile Banking
-        <br/><br/>
-        <input type="submit" name="submit"/>
-        <input type="reset" name="reset"/>
+    <form name="frm1" method="POST">
+        <table>
+            <tr>
+                <td>
+                    Full Name:
+                </td>
+                <td>
+                    <input name="fname" /> <input name="mname" /> <input name="lname" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Gender:
+                </td>
+                <td>
+                    <input type="radio" name=gender value="M" />Male
+                    <input type="radio" name=gender value="F" />Female
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Aadhar Card:
+                </td>
+                <td>
+                    <input name="aadhaar" size="16" maxlength="16" minlength="16" required />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    PAN No:
+                </td>
+                <td>
+                    <input name="pan_no" size="10" maxlength="10" minlength="10" required />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Type Of Account:
+                </td>
+                <td>
+                    <input type="radio" name="accType" value="S" required />Savings
+                    <input type="radio" name="accType" value="C" />Current
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Occupation:
+                </td>
+                <td>
+                    <input type="radio" name="occupation" value="salaried" />Salaried
+                    <input type="radio" name="occupation" value="business" />Business
+                    <input type="radio" name="occupation" value="professional" />Professional
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Services:
+                </td>
+                <td>
+                    <input type="checkbox" name="services" value="net_banking" />Net Banking
+                    <input type="checkbox" name="services" value="debit_card" />Debit Card
+                    <input type="checkbox" name="services" value="mobile_banking" />Mobile Banking
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" name="submit" />
+                </td>
+                <td>
+                    <input type="reset" name="reset" />
+                </td>
+            </tr>
+        </table>
     </form>
 </body>
+
 </html>

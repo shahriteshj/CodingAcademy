@@ -187,3 +187,8 @@ Observer -The Observer Pattern defines a one to many dependency between objects 
 Strategy - 
 
 Template
+
+
+JaxP - Java for XML parsing
+JaxB - Java for XML Bindings
+JaxWS - Java for XML Web Service
