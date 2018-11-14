@@ -1,0 +1,14 @@
+Java Script
+
+JS engines in different browsers
+
+Browser, Headless Browser, or Runtime	JavaScript Engine
+Mozilla		Spidermonkey
+Chrome		V8
+Safari**	JavaScriptCore*/Nitro
+IE and Edge	Chakra
+PhantomJS	JavaScriptCore
+HTMLUnit	Rhino
+TrifleJS	V8
+Node.js***	V8
+Io.js***	V8
