@@ -18,3 +18,26 @@ difference between slice, substring, substr
 slice - can have negative position
 Substring - cannot have negative positions
 Substr - 2nd parameter is length of string instead of position
+
+
+difference between indexOf and search
+
+The two methods are NOT equal. These are the differences:
+
+The search() method cannot take a second start position argument.
+The indexOf() method cannot take powerful search values (regular expressions).
+
+
+3 specific types of objects are created in JS
+1. Host Object: window, document, forms etc (BOM, DOM)
+2. Native Object: Array, Math, String, Date, Object etc
+3. Built-in Object: Math and Global are only Built in objects which does not need to be instantiated
+
+
+why 
+what
+how
+who invented
+difference angular and react
+virtual DOM
+demo
