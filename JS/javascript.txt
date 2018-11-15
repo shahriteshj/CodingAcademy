@@ -12,3 +12,9 @@ HTMLUnit	Rhino
 TrifleJS	V8
 Node.js***	V8
 Io.js***	V8
+
+
+difference between slice, substring, substr
+slice - can have negative position
+Substring - cannot have negative positions
+Substr - 2nd parameter is length of string instead of position
