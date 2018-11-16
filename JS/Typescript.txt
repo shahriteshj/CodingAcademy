@@ -1,0 +1,11 @@
+Typescript
+
+npm install typescript -g --save
+
+-g is for global installation
+--save is used to save config file
+
+tsc -init
+to create JSON config file
+
+Compile tsc HelloWorld.ts will create HelloWorld.js file
