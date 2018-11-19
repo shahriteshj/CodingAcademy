@@ -1,5 +1,7 @@
 Angular
 
+MEAN => Mongo, Express, Angular, node
+
 Built by google 
 
 it built on top of JS
