@@ -24,5 +24,23 @@ npm start
 or
 ng serve
 
+ng g c componentname
+g-> generate
+c-> component
 
 
+Angular Main Components
+
+Components - Smallest level of reusable entity 
+Components and Templates are binded via Property Binding or Event binding
+
+
+Module
+
+Directives: Change something at runtime like look and feel
+
+Pipes: used to filter data
+
+Services: Reuable entities to get data using DI (dependency Injection) method
+
+Routes
