@@ -1,0 +1,26 @@
+Angular
+
+Built by google 
+
+it built on top of JS
+
+Front-end framework
+
+front end dev options
+HTML + JS
+HTML + JQuery
+JSP+Servlet
+
+Angular because of feature - SPA - Single Page Applications
+
+
+npm install @angular/cli -g
+
+ng new MyProject
+
+npm start
+or
+ng serve
+
+
+
