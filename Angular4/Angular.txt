@@ -44,3 +44,13 @@ Pipes: used to filter data
 Services: Reuable entities to get data using DI (dependency Injection) method
 
 Routes
+
+
+
+<span [ngSwitch]="emp.type"> 
+	<span *ngSwitchCase="0">Daily</span> 
+	<span *ngSwitchCase="1">Permanent</span> 
+	<span *ngSwitchCase="2">Contract</span> 
+	<span *ngSwitchCase="3">Retired</span> 
+	<span *ngSwitchDefault>Other</span> 
+</span>
