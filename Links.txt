@@ -1,0 +1,6 @@
+
+Regular expression--
+https://www.tutorialspoint.com/java/java_regular_expressions.htm
+
+JSON Server config --
+https://github.com/typicode/json-server

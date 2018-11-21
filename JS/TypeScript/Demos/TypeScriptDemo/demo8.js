@@ -1,8 +1,9 @@
 var myEmployee = /** @class */ (function () {
-    function myEmployee(i, nm, sal) {
+    function myEmployee(i, nm, sal, bc) {
         this.id = i;
         this.name = nm;
         this.salary = sal;
+        this.bc = bc;
     }
     Object.defineProperty(myEmployee.prototype, "Name", {
         //getters 
@@ -44,10 +45,13 @@ var myEmployee = /** @class */ (function () {
         console.log("Employee Name  = " + this.Name + " ");
         console.log("Employee ID  = " + this.Id + " ");
         console.log("Employee Salary  = " + this.Salary + " ");
+        console.log("Employee Optional variable  = " + this.bc + " ");
     };
     return myEmployee;
 }());
 var emp = new myEmployee(100, "rashmi", 3000);
+emp.printInfo();
+var emp = new myEmployee(100, "rashmi", 3000, "Optional param for constructor");
 emp.printInfo();
 //    emp.Name="rashmi";
 //    emp.printInfo();   emp.Name="rashmi";
