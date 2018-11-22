@@ -17,7 +17,7 @@ Angular because of feature - SPA - Single Page Applications
 
 
 npm install @angular/cli -g
-
+npm install bootstrap@3 --save
 ng new MyProject
 
 npm start
@@ -27,7 +27,13 @@ ng serve
 ng g c componentname
 g-> generate
 c-> component
+s-> service
+i-> interface
+m-> module
+p-> pipe
 
+set Bootstrap CSS path in Angular.json
+ng g c PageNotFound
 
 Angular Main Components
 
