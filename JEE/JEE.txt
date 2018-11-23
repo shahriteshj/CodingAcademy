@@ -1,0 +1,6 @@
+javac -classpath "c:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/servlet-api.jar"  BasicServlet.java
+
+
+ConnectionMetaData - Read all databases
+DatabaseMetaData - Read all tables
+ResultSetMetaData - Read all columns
