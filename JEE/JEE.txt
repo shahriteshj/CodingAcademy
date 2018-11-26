@@ -1,6 +1,48 @@
 javac -classpath "c:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/servlet-api.jar"  BasicServlet.java
 
 
-ConnectionMetaData - Read all databases
-DatabaseMetaData - Read all tables
-ResultSetMetaData - Read all columns
+redirect 
+	Client -> page a
+	a.redirect to b
+	response from a to browser
+	browser will send request to b
+	b will send response to browser
+	
+	
+dispatching: Forward and include
+	Client -> page a
+	a.dispatching to b
+	a will call b
+	b will send response to browser
+
+	The main difference is that when you use forward the control is transferred to the next servlet/jsp you are calling, while include retains the control with the current servlet, it just includes the processing done by the calling servlet/jsp(like doing any out.println or other processing)
+	
+
+26/11 Monday
+
+3 interfaces
+Servlet, ServletConfig, Serializable
+
+
+
+JSP
+
+
+27/11 Tuesday
+Basics of MVC
+JSP in further detail
+Interservlet communication in further detail
+Session Management
+
+28/11 Wednesday
+Write end to end case study
+
+29/11 Thursday
+Advanced concepts
+Listner
+Filter
+Connection pool
+Custom tags
+
+30/11 Friday
+Implementation of concepts and preparing for exam
