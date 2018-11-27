@@ -7,7 +7,9 @@ redirect
 	response from a to browser
 	browser will send request to b
 	b will send response to browser
-	
+
+redirect can be used to call a servlet from another project/server
+dispatching can only work with project	
 	
 dispatching: Forward and include
 	Client -> page a
@@ -17,13 +19,26 @@ dispatching: Forward and include
 
 	The main difference is that when you use forward the control is transferred to the next servlet/jsp you are calling, while include retains the control with the current servlet, it just includes the processing done by the calling servlet/jsp(like doing any out.println or other processing)
 	
+context parameters are available to all
 
+config parameters are specific to a particular servlet
+	
+COOKIE	
+cookie is storage in user machine. Browser controls the storage
+cookie is a class given in servlet where you can store information. This class only TEXT information
+cookie can hold max 4MB of data
+For 1 website max 20 cookies can be maintained
+Overall max 300 cookies a browser can maintain
+
+Cookies with age (Persistent cookies) go on disk
+cookies without age (Session cookies) are in browser memory
+	
 26/11 Monday
 
 3 interfaces
 Servlet, ServletConfig, Serializable
 
-
+explore head parameters
 
 JSP
 

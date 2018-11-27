@@ -4,3 +4,13 @@ https://www.tutorialspoint.com/java/java_regular_expressions.htm
 
 JSON Server config --
 https://github.com/typicode/json-server
+
+https://loiane.com/2017/08/angular-hide-navbar-login-page/
+
+https://blog.angular-university.io/angular-2-router-nested-routes-and-nested-auxiliary-routes-build-a-menu-navigation-system/
+
+https://www.devglan.com/angular/angular-hide-sidenav-login-page
+
+http://jasonwatmore.com/post/2016/09/29/angular-2-user-registration-and-login-example-tutorial
+
+https://github.com/cornflourblue/angular2-registration-login-example
