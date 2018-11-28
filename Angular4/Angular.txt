@@ -35,6 +35,14 @@ p-> pipe
 set Bootstrap CSS path in Angular.json
 ng g c PageNotFound
 
+JSON Server commands
+=============================================
+npm install -g json-server
+json-server --watch db.json
+
+===========================================
+
+
 Angular Main Components
 
 Components - Smallest level of reusable entity 

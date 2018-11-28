@@ -71,12 +71,23 @@ Rules for Web Layer
 =======================
 Front Controller - JEE Design Pattern
 Command Pattern (GoF pattern)
-
-
 *******************************************************************************
 
 
+Scriplet: <% java %> goes into service method of Servlet in the order of their mention
+Directives: <%@ page, include, taglib %>
+page: session, isErrorPage, errorPage, extends
+include: Precompiled inclusion of jsp code
+taglib: To define URL for library
 
+Declarations: <%! Instance fields, override init()/destroy(), define custom method %>
+Expression: <%= Math expression/ method returning a value%>
+JSP element: <jsp:xxx/>
+
+Standard tag library
+	Library of java code with methods
+	Methods are called through Markup Language syntax
+Custom tags
 
 27/11 Tuesday
 Basics of MVC
