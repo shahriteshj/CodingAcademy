@@ -38,9 +38,44 @@ cookies without age (Session cookies) are in browser memory
 3 interfaces
 Servlet, ServletConfig, Serializable
 
-explore head parameters
+*******************************************************************************
+Rules for DAO Layer
+================
+ClassNotFoundException, SQLException must not come out of DAO class
+Database specific entities must not come out of the DAO class (like Exception 
+and classes)
+Each and every resource (Connection, Statements, ResultSets) must be closed 
+properly
+Always prefer Statement over PreparedStatement for non interactive querues. 
+As PreparedStatements are slow
+Fetch data page-wise
+Prefer mentioning column names instead of column names
+DAO is a JEE pattern
+*******************************************************************************
 
-JSP
+*******************************************************************************
+Rules for Service Layer
+=======================
+One layer refers to another layer through interface only
+This layer will also ensure only Custom exception to come out
+
+Only one gateway with preserving privacy of all inner classes
+One point for implementing security, transaction management, caching.
+Multiple interfaces per client to give restricted view of all service
+Facade pattern(GoF pattern)(Gang of Four)
+Delegates and controls Cross Cutting Concerns
+*******************************************************************************
+
+*******************************************************************************
+Rules for Web Layer
+=======================
+Front Controller - JEE Design Pattern
+Command Pattern (GoF pattern)
+
+
+*******************************************************************************
+
+
 
 
 27/11 Tuesday
