@@ -89,6 +89,20 @@ Standard tag library
 	Methods are called through Markup Language syntax
 Custom tags
 
+
+*******************************************************************************
+Cookies
+=======================
+Session Cookies - stored in memory on browser
+Persistent Cookies - stored on disk by browser
+
+*******************************************************************************
+
+
+
+
+
+
 27/11 Tuesday
 Basics of MVC
 JSP in further detail
