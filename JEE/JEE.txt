@@ -98,9 +98,16 @@ Persistent Cookies - stored on disk by browser
 
 *******************************************************************************
 
-
-
-
+*******************************************************************************
+Session
+=======================
+getSession()/getSession(true):
+					If session exists: Bring the reference of session.
+					Otherwise create a new session.
+getSession(false):  
+					If session exists: Bring the reference of session.
+				    Otherwise return null
+*******************************************************************************
 
 
 27/11 Tuesday
