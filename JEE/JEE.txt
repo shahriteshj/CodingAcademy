@@ -1,5 +1,5 @@
-javac -classpath "c:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/servlet-api.jar"  BasicServlet.java
-
+9930989832
+cbdesh2013@gmail.com
 
 redirect 
 	Client -> page a
@@ -23,18 +23,6 @@ context parameters are available to all
 
 config parameters are specific to a particular servlet
 	
-COOKIE	
-cookie is storage in user machine. Browser controls the storage
-cookie is a class given in servlet where you can store information. This class only TEXT information
-cookie can hold max 4MB of data
-For 1 website max 20 cookies can be maintained
-Overall max 300 cookies a browser can maintain
-
-Cookies with age (Persistent cookies) go on disk
-cookies without age (Session cookies) are in browser memory
-	
-26/11 Monday
-
 3 interfaces
 Servlet, ServletConfig, Serializable
 
@@ -76,7 +64,7 @@ Command Pattern (GoF pattern)
 
 Scriplet: <% java %> goes into service method of Servlet in the order of their mention
 Directives: <%@ page, include, taglib %>
-page: session, isErrorPage, errorPage, extends
+page: (declare metadata for that page) session, isErrorPage, errorPage, extends
 include: Precompiled inclusion of jsp code
 taglib: To define URL for library
 
@@ -90,11 +78,21 @@ Standard tag library
 Custom tags
 
 
+
 *******************************************************************************
 Cookies
 =======================
 Session Cookies - stored in memory on browser
 Persistent Cookies - stored on disk by browser
+
+cookie is storage in user machine. Browser controls the storage
+cookie is a class given in servlet where you can store information. This class only TEXT information
+cookie can hold max 4MB of data
+For 1 website max 20 cookies can be maintained
+Overall max 300 cookies a browser can maintain
+
+Cookies with age (Persistent cookies) go on disk
+cookies without age (Session cookies) are in browser memory
 
 *******************************************************************************
 
@@ -109,6 +107,29 @@ getSession(false):
 				    Otherwise return null
 *******************************************************************************
 
+*******************************************************************************
+JSP inherit objects
+=======================
+
+	final javax.servlet.jsp.PageContext pageContext;
+    final javax.servlet.ServletContext application;
+    final javax.servlet.ServletConfig config;
+    javax.servlet.jsp.JspWriter out = null;
+    final java.lang.Object page = this;
+    javax.servlet.jsp.JspWriter _jspx_out = null;
+    javax.servlet.jsp.PageContext _jspx_page_context = null;
+
+
+      response.setContentType("text/html; charset=UTF-8");
+      pageContext = _jspxFactory.getPageContext(this, request, response,
+      			null, false, 8192, true);
+      _jspx_page_context = pageContext;
+      application = pageContext.getServletContext();
+      config = pageContext.getServletConfig();
+      out = pageContext.getOut();
+      _jspx_out = out;
+    
+*******************************************************************************
 
 27/11 Tuesday
 Basics of MVC
