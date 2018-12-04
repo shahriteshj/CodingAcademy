@@ -1,1 +1,68 @@
+7738206222
+brijeshsmita@gmail.com
+
+***************************************************************************************************************
 JPA
+=========================
+***************************************************************************************************************
+
+***************************************************************************************************************
+Day1
+=========================
+
+What is JPA (ORM framework)
+=========================
+Its a specification standard in order to perform database operations
+
+Why JPA
+=========================
+
+JPA implemented by
+Hibernate, TopLink, iBatis, Eclipselink
+
+***************************************************************************************************************
+ORM
+=========================
+Object (Class) mapped to Relation (table)
+Property mapped to column
+XML for connection
+Annotation for mapping
+
+Annotation for class
+@Entity - to mention map class to table. If @table is not specified then it would map to table with name same as class name
+@table (name="tablename")
+***************************************************************************************************************
+
+Persistence
+=========================
+javax.persistence.*
+Class Persistence provides Interface EntityManagerFactory which provides Interface EntityManager
+
+Imp Interface of JPA
+Simple JPA application
+Layered appln with DAO
+Object lifecycle
+Impedance mismatch - Granularity, Association, Inheritance
+=========================
+
+
+***************************************************************************************************************
+
+
+Day2
+
+Maven
+
+Association mapping
+	one to one mapping
+	Many to Many mapping
+	One to Many mapping
+JPQL (JPA Query Language)
+
+Day3
+Inheritance
+	Table per class
+	Single table
+	joined
+
+DAO will be replaced by JPA

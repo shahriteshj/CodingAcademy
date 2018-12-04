@@ -14,3 +14,5 @@ https://www.devglan.com/angular/angular-hide-sidenav-login-page
 http://jasonwatmore.com/post/2016/09/29/angular-2-user-registration-and-login-example-tutorial
 
 https://github.com/cornflourblue/angular2-registration-login-example
+
+https://www.javatpoint.com/
