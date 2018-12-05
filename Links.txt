@@ -16,3 +16,59 @@ http://jasonwatmore.com/post/2016/09/29/angular-2-user-registration-and-login-ex
 https://github.com/cornflourblue/angular2-registration-login-example
 
 https://www.javatpoint.com/
+
+Cascading
+Angular subscribe
+
+
+package java.util.*
+
+Interfaces
+		Collection
+			List implements Collection
+			Set impleents Collection
+			
+
+
+While using set always override below methods
+implements Comparable
+equals 
+HashCode
+
+
+
+Vector - synchronized, legacy
+ArrayList - un-synchronized, frequent get and set, random, fast
+LinkedList - un-synchronized, frequent insertion and deletion, tree like structure, slower than arraylist, implements List and Queue
+
+Set - unique collection, object class must override equals and hashCode() method as set are unique collection
+	HashSet - un-synchronized - frequent get and set, no order, unique
+	LinkedHashSet - un-synchronized, frequent insertion and deletion, insertion order
+	
+SortedSet -
+	TreeSet - un-synchronized, Ordered Set
+	
+	
+sort method has a contract with Comparable and comparator
+
+Comparable - int compareTo(Object obj)
+			natural order of sorting
+			implemented by Object class
+
+comparator - int compare(Object obj1, Object obj2)
+			sorting as per requirement
+			implemented by any class and further used for sorting
+	
+	
+Iterator - only forward
+ListIterator - both direction
+
+
+Map
+
+	HashTable - legacy, synchronized
+	HashMap - un-synchronized, allows null key and value
+	LinkedHaspMap - un-synchronized, 
+
+SortedMap
+	TreeMap
