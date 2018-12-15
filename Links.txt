@@ -17,8 +17,14 @@ https://github.com/cornflourblue/angular2-registration-login-example
 
 https://www.javatpoint.com/
 
+
+22,25,25,22,25
+
+50,49,47,50,47.5
+
 Cascading
 Angular subscribe
+Reflection
 
 
 package java.util.*

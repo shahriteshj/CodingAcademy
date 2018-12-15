@@ -1,0 +1,22 @@
+Spring MVC provides web layer designing
+
+AOP
+
+Advice/Aspect: Before and After
+JoinPOints: Target Method
+Point cuts: Defined on advices to decide the join points
+
+
+Policy 1
+Compile time weaving
+Special Compiler to add before and after methods 
+
+Policy 2
+Special Class loader which will add before and after methods in called method while uploading code to JVM. Cannot be used for servers as they have their own ClassLoaders
+Load time weaving
+
+
+Policy 3
+Runtime weaving
+Wrapper class around method.
+Done by Spring
