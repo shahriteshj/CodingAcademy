@@ -17,6 +17,7 @@ https://github.com/cornflourblue/angular2-registration-login-example
 
 https://www.javatpoint.com/
 
+https://blogs.msdn.microsoft.com/premier_developer/2018/03/07/angular-how-to-implement-role-based-security/
 
 22,25,25,22,25
 
