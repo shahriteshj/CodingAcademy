@@ -43,6 +43,7 @@ equals
 HashCode
 
 
+angular rest ws spring jpa
 
 Vector - synchronized, legacy
 ArrayList - un-synchronized, frequent get and set, random, fast
