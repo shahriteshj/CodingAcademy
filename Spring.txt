@@ -1,5 +1,7 @@
 Spring MVC provides web layer designing
 
+@Component -> @Service , @Repository, @Controller->@RestController
+
 AOP
 
 Advice/Aspect: Before and After
