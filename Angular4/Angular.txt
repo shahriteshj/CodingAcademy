@@ -20,6 +20,8 @@ npm install @angular/cli -g
 npm install bootstrap@3 --save
 ng new MyProject
 
+npm install --save @angular/material @angular/cdk @angular/animations
+
 npm start
 or
 ng serve
