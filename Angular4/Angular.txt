@@ -36,7 +36,7 @@ p-> pipe
 
 set Bootstrap CSS path in Angular.json
 ng g c PageNotFound
-
+npm install --save ngx-webstorage
 JSON Server commands
 =============================================
 npm install -g json-server

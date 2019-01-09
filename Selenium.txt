@@ -1,0 +1,15 @@
+Selenium
+
+Testing tool for Testing UI / Web Application
+
+Script script = "return jQuery('#some-id').get(0)";
+
+WebElement element = (WebElement) executor.executeScript(script);
+
+Gherkin /Cucumber format
+
+1. Feature
+2. Scenario
+3. Given - But
+4. When
+5. Then - And
