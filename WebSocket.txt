@@ -1,0 +1,7 @@
+HTTP/TCP based, bi-directional, full-duplex messaging
+
+Websocket protocol has 2 parts - handshake and data transfer
+
+Client initiates the handshake by sending a request to a WebSocket endpoint using its URI
+
+The handshake is compatible with existing HTTP 
